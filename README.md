@@ -38,12 +38,14 @@ Now, when server is ready, run clients simultaneously with total number of clien
 
 ```commandline
 python client.py --layer_id 1 
+```
 
 **Layer 2**
 
 ```commandline
 python client.py --layer_id 2 
 ```
+
 **Layer 3**
 
 ```commandline
