@@ -1,0 +1,19 @@
+name: YOLO
+server:
+  cut-module: b #or b, c, đây chỉ là cái cố định
+  clients: # định nghĩa 2 clident với id đều là 1, cái này sẽ thêm vào server vì chưa chạy client chưa biết id là gì nên cố định cho là 1
+    - 1
+    - 1 
+    - 1
+  model: yolov8n
+  batch-frame: 1 # chính là số khung hình xử lý đồng thời
+rabbit:
+  address: 127.0.0.1
+  username: guest
+  password: guest
+  virtual-host: /
+
+data: vd2.mp4
+log-path: .
+control-count: 10
+debug-mode: False
