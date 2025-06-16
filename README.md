@@ -27,11 +27,11 @@ This configuration is use for server.
 
 ## How to Run
 Alter your configuration, you need to run the server to listen and control the request from clients.
-### Server, chưa cắt model, mới chạy sơ bộ sau đó liên tục lắng nghe phía client gửi tin nhắn để có cách trả lời tương ứng
+### Server, liên tục lắng nghe tin nhắn từ phía client
 ```commandline
 python server.py
 ```
-### Client, chạy mới lấy thông tin từ config rồi cắt model ra, client chạy sẽ tương tác với server, client mới cho ra kết quả inference từng phần
+### Client, client chạy sẽ tương tác với server
 Now, when server is ready, run clients simultaneously with total number of client that you defined. chạy các client đồng thời
 
 **Layer 1**
