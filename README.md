@@ -44,6 +44,12 @@ python client.py --layer_id 1
 ```commandline
 python client.py --layer_id 2 
 ```
+**Layer 3**
+
+```commandline
+python client.py --layer_id 3 
+```
+
 Where:
 - `--layer_id` is the ID index of client's layer, start from 1. la chỉ số id của layer trong máy khách
 
